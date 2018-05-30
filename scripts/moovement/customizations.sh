@@ -23,8 +23,8 @@ cp $FILES_DIR/moovement.bash $HOME/.bash_it/custom
 echo
 echo "Copying aws credentials and config"
 
-if [ -z $(cat $HOME/.aws/credentials) ]; then cp $FILES_DIR/aws/credentials $HOME/.aws/credentials; fi
-if [ -z $(cat $HOME/.aws/config) ]; then cp $FILES_DIR/aws/config $HOME/.aws/config; fi
+if [ -z "$(cat $HOME/.aws/credentials)" ]; then cp $FILES_DIR/aws/credentials $HOME/.aws/credentials; fi
+if [ -z "$(cat $HOME/.aws/config)" ]; then cp $FILES_DIR/aws/config $HOME/.aws/config; fi
 
 echo
 echo "Setting sensible git default names"
