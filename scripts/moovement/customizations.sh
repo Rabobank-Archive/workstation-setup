@@ -16,3 +16,9 @@ echo "Installing extra-special stuff for moovement"
 
 brew install z
 cp $FILES_DIR/moovement.bash $HOME/.bash_it/custom
+
+echo
+echo "Copying .gitconfig"
+
+cp $FILES_DIR/.gitconfig $HOME
+
