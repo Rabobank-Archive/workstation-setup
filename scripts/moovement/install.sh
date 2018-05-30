@@ -25,3 +25,13 @@ echo
 echo "Installing entr"
 
 brew install entr
+
+echo
+echo "Installing tree"
+
+brew install tree
+
+echo
+echo "Installing tig"
+
+brew install tig
