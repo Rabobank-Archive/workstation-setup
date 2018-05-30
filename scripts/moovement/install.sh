@@ -20,3 +20,8 @@ echo
 echo "Installing serverless cli"
 
 yarn global add serverless
+
+echo
+echo "Installing entr"
+
+brew install entr
