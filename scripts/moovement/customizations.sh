@@ -8,8 +8,7 @@ FILES_DIR="$SCRIPT_DIR"/../../files/moovement
 echo
 echo "Copying git authors for moovement"
 
-ln -s $FILES_DIR/.git-authors $HOME/.git-authors || true
-
+cp $FILES_DIR/.git-authors $HOME/.git-authors
 
 echo
 echo "Copying .gitconfig"
