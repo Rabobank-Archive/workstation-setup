@@ -1,0 +1,10 @@
+pairs:
+  ap: Anton Perez, aperez
+  mr: Mostafa Raafat, mraafat
+  dg: Daniel Garnier-Moiroux
+  tj: Tim Jarratt
+email:
+  domain: mobiquityinc.com
+email_addresses:
+  dg: dgarnier-moiroux@pivotal.io
+  tj: tjarratt@pivotal.io
