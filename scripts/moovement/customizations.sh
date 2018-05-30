@@ -12,13 +12,11 @@ ln -s $FILES_DIR/.git-authors $HOME/.git-authors || true
 
 
 echo
-echo "Installing extra-special stuff for moovement"
-
-brew install z
-cp $FILES_DIR/moovement.bash $HOME/.bash_it/custom
-
-echo
 echo "Copying .gitconfig"
 
 cp $FILES_DIR/.gitconfig $HOME
 
+echo
+echo "Copying bash config"
+
+cp $FILES_DIR/moovement.bash $HOME/.bash_it/custom
