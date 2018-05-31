@@ -35,3 +35,8 @@ echo
 echo "Installing tig"
 
 brew install tig
+
+echo
+echo "Install virtualenv"
+
+pip3 install virtualenv
