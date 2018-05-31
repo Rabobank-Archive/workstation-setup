@@ -31,3 +31,9 @@ echo "Setting sensible git default names"
 
 git config --global user.email "moovement@googlegroups.com"
 git config --global user.name "Moovement"
+
+echo
+echo "Copying bin utils"
+
+mkdir -p $HOME/bin
+cp $FILES_DIR/bin/* $HOME/bin

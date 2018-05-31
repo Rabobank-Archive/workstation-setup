@@ -40,3 +40,8 @@ echo
 echo "Install virtualenv"
 
 pip3 install virtualenv
+
+echo
+echo "Install lastpass"
+
+brew install lastpass-cli --with-pinentry
