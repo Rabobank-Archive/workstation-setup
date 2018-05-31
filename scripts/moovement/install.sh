@@ -45,3 +45,8 @@ echo
 echo "Install lastpass"
 
 brew install lastpass-cli --with-pinentry
+
+echo
+echo "Install thefuck"
+
+brew install thefuck

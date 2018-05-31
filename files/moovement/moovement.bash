@@ -3,3 +3,4 @@
 source $(brew --prefix)/etc/profile.d/z.sh
 export GIT_DUET_ROTATE_AUTHOR=1
 export PATH=$PATH:$HOME/bin
+eval $(thefuck --alias)
