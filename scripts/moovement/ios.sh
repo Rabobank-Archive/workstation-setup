@@ -18,3 +18,6 @@ if ! type "rswift" > /dev/null; then
   mv /tmp/rswift /usr/local/bin/rswift
 fi
 
+if ! type "sourcery" > /dev/null; then
+  brew install sourcery
+fi
