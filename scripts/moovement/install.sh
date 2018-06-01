@@ -53,5 +53,8 @@ brew install thefuck
 
 echo 
 echo "Installing aws elasticbeanstalk"
-
 pip3 install awsebcli --upgrade --user
+
+echo
+echo "Install visual-studio-code"
+brew install visual-studio-code

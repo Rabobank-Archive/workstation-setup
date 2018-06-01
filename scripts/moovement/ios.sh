@@ -4,20 +4,31 @@ set -e
 echo
 echo "Installing extra-special iOS tools"
 
+echo
+echo "Install swiftlint"
 if ! type "swiftlint" > /dev/null; then
   brew install swiftlint
 fi
 
+echo
+echo "Install carthage"
 if ! type "carthage" > /dev/null; then
   brew install carthage
 fi
 
+echo
+echo "Install rswift"
 if ! type "rswift" > /dev/null; then
   curl -L https://github.com/mac-cain13/R.swift/releases/download/v4.0.0/rswift-4.0.0.zip > /tmp/rswift.zip
   unzip /tmp/rswift.zip -d /tmp
   mv /tmp/rswift /usr/local/bin/rswift
 fi
 
-if ! type "sourcery" > /dev/null; then
-  brew install sourcery
-fi
+echo
+echo "Install quick templates for xcode"
+cd $HOME
+git clone https://github.com/quick/quick.git
+cd quick
+rake templates:install
+cd ..
+rm -rf quick
