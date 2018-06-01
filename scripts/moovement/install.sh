@@ -50,3 +50,8 @@ echo
 echo "Install thefuck"
 
 brew install thefuck
+
+echo 
+echo "Installing aws elasticbeanstalk"
+
+pip3 install awsebcli --upgrade --user
