@@ -57,4 +57,4 @@ pip3 install awsebcli --upgrade --user
 
 echo
 echo "Install visual-studio-code"
-brew install homebrew/cask/visual-studio-code
+brew cask install visual-studio-code
