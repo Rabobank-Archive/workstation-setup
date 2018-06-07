@@ -60,5 +60,9 @@ echo "Install postgresql"
 brew install postgres
 
 echo
+echo "Install htop"
+brew install htop
+
+echo
 echo "Install visual-studio-code"
 brew cask install visual-studio-code
