@@ -24,11 +24,15 @@ if ! type "rswift" > /dev/null; then
   mv /tmp/rswift /usr/local/bin/rswift
 fi
 
-echo
-echo "Install quick templates for xcode"
-cd $HOME
-git clone https://github.com/quick/quick.git
-cd quick
-rake templates:install
-cd ..
-rm -rf quick
+
+if [ ! -d "/Users/pivotal/Library/Developer/Xcode/Templates/File Templates/Quick/Quick Templates" ];
+then
+  echo
+  echo "Install quick templates for xcode"
+  cd $HOME
+  git clone https://github.com/quick/quick.git
+  cd quick
+  rake templates:install || true  # Don't fail if templates already installed
+  cd ..
+  rm -rf quick
+fi
