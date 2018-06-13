@@ -3,8 +3,15 @@ pairs:
   mr: Mostafa Raafat
   dg: Daniel Garnier-Moiroux
   tj: Tim Jarratt
+  iy: Imran Yousaf
+  cj: Coen Jonker
+  jp: Jieke Pan
 email_addresses:
   dg: dgarnier-moiroux@pivotal.io
   tj: tjarratt@pivotal.io
   ap: aperez@mobiquityinc.com
   mr: mraafat@mobiquityinc.com
+  iy: iyousaf@mobiquityinc.com
+  cj: cjonker@mobiquityinc.com
+  jp: jpan@mobiquityinc.com
+
