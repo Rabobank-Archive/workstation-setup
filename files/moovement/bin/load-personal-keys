@@ -4,7 +4,7 @@ set -e
 
 HOMETIME="18:00:00"
 HOURS="$1"
-LASTPASS_NAME="Personal/github-ssh-key"
+LASTPASS_NAME="moovement-rsa"
 PRIVATE_KEY="key"
 
 main() {
