@@ -70,4 +70,4 @@ install_or_upgrade htop
 
 echo
 echo "Install visual-studio-code"
-brew cask install visual-studio-code
+brew cask install visual-studio-code || true
