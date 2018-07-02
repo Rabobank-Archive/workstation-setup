@@ -69,5 +69,13 @@ echo "Install htop"
 install_or_upgrade htop
 
 echo
+echo "Install geos"
+install_or_upgrade geos
+
+echo
+echo "Install jupyter"
+install_or_upgrade jupyter
+
+echo
 echo "Install visual-studio-code"
 brew cask install visual-studio-code || true
