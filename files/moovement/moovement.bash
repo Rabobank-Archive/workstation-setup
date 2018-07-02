@@ -13,4 +13,8 @@ export GIT_DUET_ROTATE_AUTHOR=1
 export PATH=$PATH:$HOME/bin
 
 # Add custom, hand-rolled scripts to path
-export PATH=$PATH:$HOME/Library/Python/3.6/bin
+if [ -d $HOME/Library/Python/3.7/bin ]; then
+  export PATH=$PATH:$HOME/Library/Python/3.7/bin
+else
+  export PATH=$PATH:$HOME/Library/Python/3.6/bin
+fi
