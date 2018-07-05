@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+psql -U postgres -h localhost moovement_db -f <(echo 'select session_id from spring_session limit 1;') | tail -n 3 | head -n 1
