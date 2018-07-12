@@ -18,3 +18,6 @@ if [ -d $HOME/Library/Python/3.7/bin ]; then
 else
   export PATH=$PATH:$HOME/Library/Python/3.6/bin
 fi
+
+# Enable forward search (Ctrl+S)
+stty -ixon
