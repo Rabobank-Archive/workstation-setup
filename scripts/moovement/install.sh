@@ -77,5 +77,10 @@ echo "Install jupyter"
 install_or_upgrade jupyter
 
 echo
+echo
+echo "Install travis cli"
+install_or_upgrade travis
+
+echo
 echo "Install visual-studio-code"
 brew cask install visual-studio-code || true
